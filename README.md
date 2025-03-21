@@ -40,7 +40,7 @@ pip install -e .
 cd ..
 ```
 
-4. Optional but highly suggested, compile the cuda kernels for RoPE (as in CroCo v2).
+4. Optional (if you want to use DUSt3R).
 ```bash
 # DUST3R relies on RoPE positional embeddings for which you can compile some cuda kernels for faster runtime.
 cd submodules/dust3r/croco/models/curope/
