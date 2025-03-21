@@ -7,11 +7,11 @@ from PIL.ImageOps import exif_transpose
 from plyfile import PlyData, PlyElement
 import torchvision.transforms as tvf
 import roma
-import submodules.dust3r.cloud_opt.init_im_poses as init_fun
-from submodules.dust3r.cloud_opt.base_opt import global_alignment_loop
-from submodules.dust3r.utils.geometry import geotrf, inv
-from submodules.dust3r.cloud_opt.commons import edge_str
-from submodules.dust3r.utils.image import _resize_pil_image
+import submodules.dust3r.dust3r.cloud_opt.init_im_poses as init_fun
+from submodules.dust3r.dust3r.cloud_opt.base_opt import global_alignment_loop
+from submodules.dust3r.dust3r.utils.geometry import geotrf, inv
+from submodules.dust3r.dust3r.cloud_opt.commons import edge_str
+from submodules.dust3r.dust3r.utils.image import _resize_pil_image
 
 
 def get_known_poses(scene):
