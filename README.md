@@ -8,6 +8,8 @@
   <a href="https://drive.google.com/drive/folders/1DWm-foUQC2QBsrr3QC6Tx8bDmWTfgAzu?usp=sharing">Dataset</a> 
 </p>
 
+![](./assets/fig1.jpg)
+
 ## Get Started
 
 ### Installation
@@ -53,9 +55,14 @@ In addition, we also conduct experiments on [NeRF On-the-go](https://github.com/
 ## Usage
 ### 2D Segmentation
 ```
-python seg_all_instances.py --image_dir data/Simingshan_2_colmap
+python seg_all_instances.py --image_dir data/Simingshan
 ```
 You can try adjusting different parameters in the SAM2AutomaticMaskGenerator to achieve better segmentation results.
+
+<div style="display:flex; justify-content:center;">
+  <img src="./assets/2411006_18_002.jpg" width="45%" style="margin-right:10px;"/>
+  <img src="./assets/2411006_18_002_seg.jpg" width="45%"/>
+</div>
 
 ### Training
 Run the following command to train on Simingshan. 
