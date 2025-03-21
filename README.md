@@ -15,7 +15,7 @@
 ### Installation
 1. Clone DroneSplat and download pre-trained model.
 ```bash
-git clone --recursive https://github.com/BITyia/DroneSplat
+git clone --recursive https://github.com/BITyia/DroneSplat.git
 cd DroneSplat
 git submodule update --init --recursive
 mkdir -p checkpoints/
