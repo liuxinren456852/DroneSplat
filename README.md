@@ -3,7 +3,8 @@
 <p align="center">
 
 <p align="center">
-  <a href="https://dronesplat.github.io/">Project page</a> | 
+  <a href=" ">Paper</a> |
+  <a href="https://bityia.github.io/DroneSplat/">Project page</a> | 
   <a href="https://drive.google.com/drive/folders/1DWm-foUQC2QBsrr3QC6Tx8bDmWTfgAzu?usp=sharing">Dataset</a> 
 </p>
 
@@ -12,7 +13,7 @@
 ### Installation
 1. Clone DroneSplat and download pre-trained model.
 ```bash
-git clone --recursive https://github.com/DroneSplat/anonymous_code.git
+git clone --recursive https://github.com/BITyia/DroneSplat
 cd DroneSplat
 git submodule update --init --recursive
 mkdir -p checkpoints/
@@ -45,7 +46,7 @@ python setup.py build_ext --inplace
 ```
 
 ### Data preparation
-We provide six scenes of [DroneSplat dataset](https://drive.google.com/drive/folders/1DWm-foUQC2QBsrr3QC6Tx8bDmWTfgAzu?usp=sharing) for evaluation.
+We provide two scenes of [DroneSplat dataset](https://drive.google.com/drive/folders/1DWm-foUQC2QBsrr3QC6Tx8bDmWTfgAzu?usp=sharing) for evaluation.
 
 In addition, we also conduct experiments on [NeRF On-the-go](https://github.com/cvg/nerf-on-the-go) and [UrbanScene3D](https://vcc.tech/UrbanScene3D).
 
@@ -68,7 +69,7 @@ python render_video.py -s data/Simingshan -m output/Simingshan --iter 7000 --n_v
 
 ### Evaluation
 ```
-python metrics.py --rendering output/Simingshan/render_test --gt data/Simingshan_2_colmap/ --output output/Simingshan/metrics.json
+python metrics.py --rendering output/Simingshan/render_test --gt data/Simingshan/images --output output/Simingshan/metrics.json
 ```
 
 ## Shoutouts and Credits
