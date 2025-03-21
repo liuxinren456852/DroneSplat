@@ -68,7 +68,7 @@ You can try adjusting different parameters in the SAM2AutomaticMaskGenerator to 
 ### Training
 Run the following command to train on Simingshan. 
 ```
-python train.py -s data/Simingshan -m output/Simingshan --scene Simingshan --iter 7000 --use_masks --mask_start_iter 500 --threshold_local 0.4 
+python train.py -s data/Simingshan -m output/Simingshan --scene Simingshan --iter 7000 --use_masks
 ```
 ### Rendering
 Run the following script to render train and  test images:
