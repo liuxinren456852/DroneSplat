@@ -51,6 +51,11 @@ We provide two scenes of [DroneSplat dataset](https://drive.google.com/drive/fol
 In addition, we also conduct experiments on [NeRF On-the-go](https://github.com/cvg/nerf-on-the-go) and [UrbanScene3D](https://vcc.tech/UrbanScene3D).
 
 ## Usage
+### 2D Segmentation
+```
+python seg_all_instances.py --image_dir data/Simingshan_2_colmap
+```
+You can try adjusting different parameters in the SAM2AutomaticMaskGenerator to achieve better segmentation results.
 
 ### Training
 Run the following command to train on Simingshan. 
