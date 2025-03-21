@@ -57,11 +57,12 @@ In addition, we also conduct experiments on [NeRF On-the-go](https://github.com/
 ```
 python seg_all_instances.py --image_dir data/Simingshan
 ```
-You can try adjusting different parameters in the SAM2AutomaticMaskGenerator to achieve better segmentation results. Here is the segmentation result of the image named "2411006_18_002.jpg".
+You can try adjusting different parameters in the SAM2AutomaticMaskGenerator to achieve better segmentation results. Here are the segmentation results of the image named "2411006_18_002.jpg" using different parameters.
 
 <div style="display:flex; justify-content:center;">
-  <img src="./assets/2411006_18_002.jpg" width="45%" style="margin-right:10px;"/>
-  <img src="./assets/2411006_18_002_seg.jpg" width="45%"/>
+  <img src="./assets/2411006_18_002.jpg" width="30%" style="margin-right:10px;"/>
+  <img src="./assets/2411006_18_002_seg.jpg" width="30%"style="margin-right:10px;"/>
+  <img src="./assets/2411006_18_002_seg_2.jpg" width="30%"/>
 </div>
 
 ### Training
