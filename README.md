@@ -3,7 +3,7 @@
 <p align="center">
 
 <p align="center">
-  <a href=" ">Paper</a> |
+  <a href="https://arxiv.org/abs/2503.16964">Paper</a> |
   <a href="https://bityia.github.io/DroneSplat/">Project page</a> | 
   <a href="https://drive.google.com/drive/folders/1DWm-foUQC2QBsrr3QC6Tx8bDmWTfgAzu?usp=sharing">Dataset</a> 
 </p>
