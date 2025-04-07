@@ -1,7 +1,8 @@
 <p align="center">
-  <div align="center" style="font-size: 2em; font-weight: bold;">
+  <div align="center" style="font-size: 32px; font-weight: 600;">
     DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery
   </div>
+
   <p align="center">
     Jiadong Tang
     ·
@@ -18,7 +19,7 @@
 
   <hr style="width:100%; margin:auto;"/>
 
-  <div align="center" style="font-size: 1.5em; font-weight: bold; margin-top:10px;">
+  <div align="center" style="font-size: 24px; font-weight: 600; margin-top:10px;">
     CVPR 2025 Highlight
   </div>
 </p>
