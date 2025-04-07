@@ -1,8 +1,5 @@
 <p align="center">
-  <div align="center" style="font-size: 32px; font-weight: 600;">
-    DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery
-  </div>
-
+  <h1 align="center"  style="border-bottom: none;">DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery</h1>
   <p align="center">
     Jiadong Tang
     ·
@@ -16,13 +13,8 @@
     ·
     Yi Yang
   </p>
-
-  <hr style="width:100%; margin:auto;"/>
-
-  <div align="center" style="font-size: 24px; font-weight: 600; margin-top:10px;">
-    CVPR 2025 Highlight
-  </div>
-</p>
+  <p align="center">CVPR 2025 Highlight</p>
+<p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2503.16964">Paper</a> |
