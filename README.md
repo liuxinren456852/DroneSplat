@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center"  style="border-bottom: none;">>DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery</h1>
+  <h1 align="center"  style="border-bottom: none;">DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery</h1>
   <p align="center">
     Jiadong Tang
     ·
