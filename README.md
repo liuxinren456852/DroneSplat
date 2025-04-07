@@ -12,7 +12,6 @@
     Yufeng Yue
     ·
     Yi Yang
-  <hr>
   </p>
   <h2 align="center"  style="border-bottom: none;">CVPR 2025 Highlight</h2>
   
