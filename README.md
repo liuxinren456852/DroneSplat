@@ -1,6 +1,20 @@
 <p align="center">
-  <h1 align="center">DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery</h1>
-<p align="center">
+  <h1 align="center"  style="border-bottom: none;">DroneSplat: 3D Gaussian Splatting for Robust 3D Reconstruction from In-the-Wild Drone Imagery</h1>
+  <p align="center">
+    Jiadong Tang
+    ·
+    Yu Gao
+    ·
+    Dianyi Yang
+    ·
+    Liqi Yan
+    ·
+    Yufeng Yue
+    ·
+    Yi Yang
+  </p>
+  <p align="center">CVPR 2025 Highlight</p>
+<p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2503.16964">Paper</a> |
